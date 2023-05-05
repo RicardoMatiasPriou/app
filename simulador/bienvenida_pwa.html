@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Sistema de Boleta Única Electrónica</title>
+        <link rel="manifest" href="/manifest.json">
+        <script src="/js/helpers.js"></script>
+        <!-- <script src="/js/pwa.js"></script> -->
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/boot.css">
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bienvenida_pwa.css">
+
+        <!-- <script src="js/bienvenida_pwa.js"></script> -->
+        <link href="img/favicon.png" rel="shortcut icon" type="image/png">
+    </head>
+    <body class="vanilla">
+        <div id="contenedor">
+            <div id="ayuda">
+                <div id="contenedor-ayuda" class="container">
+                    <header>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-xs-12" id="superior">
+                                    <a class="navbar-brand" href="#">14 de mayo de 2023<span><br /></span></a>
+                                </div>
+                                <div class="col-md-6 texto-tribunal col-xs-12">
+                                    <p class="tribunal">&nbsp;</p>
+                                    <p class="simulador">Sistema de Boleta Única Electrónica (BUE)</p>
+                                </div>
+                            </div>
+                    </header>
+
+                    <div id="seleccionar_ubicaciones">
+                        <h1 class="ubicacion">Para finalizar la instalación seleccione el municipio en donde vota:</h1>
+                        <div class="container">
+                            <ul class="departamentos col-md-12">
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.8.28" type="checkbox" />&nbsp;&nbsp;&nbsp;Aguaray</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.7.60" type="checkbox" />&nbsp;&nbsp;&nbsp;Aguas Blancas</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.18.50" type="checkbox" />&nbsp;&nbsp;&nbsp;Angastaco</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.18.49" type="checkbox" />&nbsp;&nbsp;&nbsp;Animana</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.5.12" type="checkbox" />&nbsp;&nbsp;&nbsp;Apolinario Saravia</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.20.53" type="checkbox" />&nbsp;&nbsp;&nbsp;Cachi</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.17.47" type="checkbox" />&nbsp;&nbsp;&nbsp;Cafayate</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.21.56" type="checkbox" />&nbsp;&nbsp;&nbsp;Campo Quijano</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.3.6" type="checkbox" />&nbsp;&nbsp;&nbsp;Campo Santo</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.11.35" type="checkbox" />&nbsp;&nbsp;&nbsp;Cerrillos</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.12.37" type="checkbox" />&nbsp;&nbsp;&nbsp;Chicoana</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.7.21" type="checkbox" />&nbsp;&nbsp;&nbsp;Colonia Santa Rosa</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.13.40" type="checkbox" />&nbsp;&nbsp;&nbsp;Coronel Moldes</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.3.5" type="checkbox" />&nbsp;&nbsp;&nbsp;El Bordo</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.12.38" type="checkbox" />&nbsp;&nbsp;&nbsp;El Carril</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.4.10" type="checkbox" />&nbsp;&nbsp;&nbsp;El Galpon</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.16.46" type="checkbox" />&nbsp;&nbsp;&nbsp;El Jardin</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.15.43" type="checkbox" />&nbsp;&nbsp;&nbsp;El Potrero</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.5.15" type="checkbox" />&nbsp;&nbsp;&nbsp;El Quebrachal</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.16.45" type="checkbox" />&nbsp;&nbsp;&nbsp;El Tala</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.8.24" type="checkbox" />&nbsp;&nbsp;&nbsp;Embarcacion</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.8.25" type="checkbox" />&nbsp;&nbsp;&nbsp;General Ballivian</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.3.7" type="checkbox" />&nbsp;&nbsp;&nbsp;General Güemes</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.8.26" type="checkbox" />&nbsp;&nbsp;&nbsp;General Mosconi</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.5.13" type="checkbox" />&nbsp;&nbsp;&nbsp;General Pizarro</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.14.41" type="checkbox" />&nbsp;&nbsp;&nbsp;Guachipas</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.7.20" type="checkbox" />&nbsp;&nbsp;&nbsp;Hipolito Yrigoyen</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.9.30" type="checkbox" />&nbsp;&nbsp;&nbsp;Iruya</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.9.31" type="checkbox" />&nbsp;&nbsp;&nbsp;Isla De Cañas</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.5.14" type="checkbox" />&nbsp;&nbsp;&nbsp;Joaquin V. Gonzalez</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.2.3" type="checkbox" />&nbsp;&nbsp;&nbsp;La Caldera</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.16.44" type="checkbox" />&nbsp;&nbsp;&nbsp;La Candelaria</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.11.36" type="checkbox" />&nbsp;&nbsp;&nbsp;La Merced</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.22.57" type="checkbox" />&nbsp;&nbsp;&nbsp;La Poma</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.13.39" type="checkbox" />&nbsp;&nbsp;&nbsp;La Viña</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.5.11" type="checkbox" />&nbsp;&nbsp;&nbsp;Las Lajitas</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.10.33" type="checkbox" />&nbsp;&nbsp;&nbsp;Los Toldos</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.19.51" type="checkbox" />&nbsp;&nbsp;&nbsp;Molinos</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.10.34" type="checkbox" />&nbsp;&nbsp;&nbsp;Nazareno</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.20.54" type="checkbox" />&nbsp;&nbsp;&nbsp;Payogasta</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.7.23" type="checkbox" />&nbsp;&nbsp;&nbsp;Pichanal</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.8.29" type="checkbox" />&nbsp;&nbsp;&nbsp;Prof. Salvador Mazza</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.4.9" type="checkbox" />&nbsp;&nbsp;&nbsp;Rio Piedras</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.6.17" type="checkbox" />&nbsp;&nbsp;&nbsp;Rivadavia Banda Norte</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.6.16" type="checkbox" />&nbsp;&nbsp;&nbsp;Rivadavia Banda Sur</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.15.42" type="checkbox" />&nbsp;&nbsp;&nbsp;Rosario De La Frontera</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.21.55" type="checkbox" />&nbsp;&nbsp;&nbsp;Rosario De Lerma</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.23.58" type="checkbox" />&nbsp;&nbsp;&nbsp;S. Antonio De Los Cobres</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.7.19" type="checkbox" />&nbsp;&nbsp;&nbsp;S. Ramon De La Nueva Oran</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.1.1" type="checkbox" />&nbsp;&nbsp;&nbsp;Salta</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.18.48" type="checkbox" />&nbsp;&nbsp;&nbsp;San Carlos</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.4.8" type="checkbox" />&nbsp;&nbsp;&nbsp;San Jose De Metan</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.1.2" type="checkbox" />&nbsp;&nbsp;&nbsp;San Lorenzo</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.6.18" type="checkbox" />&nbsp;&nbsp;&nbsp;Santa Victoria Este</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.10.32" type="checkbox" />&nbsp;&nbsp;&nbsp;Santa Victoria Oeste</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.19.52" type="checkbox" />&nbsp;&nbsp;&nbsp;Seclantas</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.8.27" type="checkbox" />&nbsp;&nbsp;&nbsp;Tartagal</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.23.59" type="checkbox" />&nbsp;&nbsp;&nbsp;Tolar Grande</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.7.22" type="checkbox" />&nbsp;&nbsp;&nbsp;Urundel</li>
+                                
+                                <li class="btn btn-default btn-lg"><input name="SA.2.4" type="checkbox" />&nbsp;&nbsp;&nbsp;Vaqueros</li>
+                                
+                            </ul> 
+                            <div style="text-align: center;">
+                                <button id="btn-continuar-loading" class="btn btn-primary btn-lg">
+                                    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                                </button>
+                                <button id="btn-continuar" class="btn btn-primary btn-lg" onclick="comenzar_cache_offline()">Continuar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+[
+    {
+        "codigo": "SA.1",
+        "cod_template": "cuatro"
+    },
+    {
+        "codigo": "SA.1.1.101.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.1.2.5.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.2",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.2.4.5.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.3",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.3.5.1.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.3.6.2.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.3.7.4.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.4",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.5",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.5.12.2.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.5.13.1.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.6",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.7",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.7.19.3.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.7.20.4.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.7.21.2.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.7.22.1.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.7.23.5.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.7.60.2.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.8",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.8.24.10.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.8.27.11.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.8.28",
+        "cod_template": "cuatro"
+    },
+    {
+        "codigo": "SA.8.28.9.EXT",
+        "cod_template": "dos"
+    },
+    {
+        "codigo": "SA.8.29.3.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.9",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.10",
+        "cod_template": "dos"
+    },
+    {
+        "codigo": "SA.10.33.3.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.11",
+        "cod_template": "dos"
+    },
+    {
+        "codigo": "SA.11.35.7.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.11.36.2.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.12",
+        "cod_template": "cuatro"
+    },
+    {
+        "codigo": "SA.13",
+        "cod_template": "dos"
+    },
+    {
+        "codigo": "SA.14",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.15",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.16",
+        "cod_template": "dos"
+    },
+    {
+        "codigo": "SA.17",
+        "cod_template": "cuatro"
+    },
+    {
+        "codigo": "SA.18",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.19",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.20",
+        "cod_template": "cuatro"
+    },
+    {
+        "codigo": "SA.21",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.21.55.5.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.21.56.2.EXT",
+        "cod_template": "uno"
+    },
+    {
+        "codigo": "SA.22",
+        "cod_template": "tres"
+    },
+    {
+        "codigo": "SA.23",
+        "cod_template": "tres"
+    }
+
+]
